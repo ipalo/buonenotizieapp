@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">9ImLhQ3DyrVkPRUflIZ6WLiLWAAh7pf6</property>
+    <property name="acs-oauth-key-production" type="string">xq8mmFpHD5NCgb4JQ79eVN2aa51w5OIQ</property>
+    <property name="acs-api-key-production" type="string">Xq8LFnmV67aiKRgsbYGzhBRvkXY5po5I</property>
+    <property name="acs-oauth-secret-development" type="string">VbYUzPeho8mbswMS9HHL3JG0Dd5OVhvC</property>
+    <property name="acs-oauth-key-development" type="string">9WOAZL4TYWNphMv50iANXWlZcJXT8PsO</property>
+    <property name="acs-api-key-development" type="string">9atxYK7BVaye4IwXjChGJHfAAxiYKKtV</property>
+    <id>com.buonenotizie.app</id>
+    <name>BuoneNotizie</name>
+    <version>1.0</version>
+    <publisher>yuri_macbook</publisher>
+    <url>http://www.buonenotizie.it</url>
+    <description>not specified</description>
+    <copyright>2013 by Buone Notizie Communication Farm srl</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>f41f0db7-c0ab-4d44-ba14-102e712dbf41</guid>
+    <property name="ti.ui.defaultunit" type="string">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+    </modules>
+    <deployment-targets>
+        <target device="blackberry">false</target>
+        <target device="android">false</target>
+        <target device="ipad">false</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+    </deployment-targets>
+    <sdk-version>3.0.2.GA</sdk-version>
+</ti:app>
